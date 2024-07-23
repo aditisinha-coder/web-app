@@ -1,0 +1,47 @@
+
+<html>
+<head>
+    <title>Hogwarts Admission Form</title>
+    </head>
+<ul>
+
+        <li><a href="hogwarts.html">HOGWARTS</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="courses.html">Courses</a></li>
+        <li><a href="admission.html">Admission</a></li>
+        <li><a href="contact.html">Contact</a></li>
+   </ul>
+<body bgcolor=grey text="black">
+    <h1>Hogwarts School of Witchcraft and Wizardry</h1>
+    <h2>Admission Form</h2>
+    <form>
+        <label for="first_name">First Name:</label>
+        <input type="text" id="first_name" name="first_name"><br><br>
+        
+        <label for="last_name">Last Name:</label>
+        <input type="text" id="last_name" name="last_name"><br><br>
+        
+        <label for="dob">Date of Birth:</label>
+        <input type="date" id="dob" name="dob"><br><br>
+        
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email"><br><br>
+        
+        <label for="address">Address:</label>
+        <textarea id="address" name="address" rows="4" cols="50"></textarea><br><br>
+        
+        <label for="house">Preferred House:</label>
+        <select id="house" name="house">
+            <option value="gryffindor">Gryffindor</option>
+            <option value="hufflepuff">Hufflepuff</option>
+            <option value="ravenclaw">Ravenclaw</option>
+            <option value="slytherin">Slytherin</option>
+        </select><br><br>
+        
+        <label for="message">Additional Message:</label>
+        <textarea id="message" name="message" rows="4" cols="50"></textarea><br><br>
+        
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
